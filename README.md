@@ -64,4 +64,6 @@
 </p>
 
 
-* Scripts for analysis/figures
+* Scripts for comparison score [a relative link](Comparison%20Study/corroboration_analysis.xlsx)
+
+* Script for comparison figures [a relative link](Comparison%20Study/barcharts.xlsx)
