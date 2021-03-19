@@ -35,6 +35,8 @@ Based on the previously described methodology, we collected a diverse dataset of
 
 
 ## Serverless Application Characterization
+
+### Initial Ratings & Interrater Agreement Calculation
 * Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="1024">
@@ -42,6 +44,7 @@ Based on the previously described methodology, we collected a diverse dataset of
 
 * Scripts for overlapp [a relative link](Serverless%20Application%20Characterization/CalculateKappa.py)
 
+### Final Dataset & Figure Generation
 * Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 
 <p>
@@ -50,6 +53,7 @@ Based on the previously described methodology, we collected a diverse dataset of
 
 * Scripts for figures [a relative link](Serverless%20Application%20Characterization/GenerateFigures.py)
 
+### Results Including Unknown Data 
 * Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
 
 <p>
