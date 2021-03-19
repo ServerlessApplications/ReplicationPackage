@@ -78,7 +78,7 @@ The following barcharts contain the raw data for each characteristic:
 * [Resource Bounds](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/resource_bounds.pdf)
 * [Cost-Performance Tradeoff](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/tradeoff.pdf)
 * [Function Trigger](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/trigger.pdf)
-* [Update Frequency](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/upgrade_frequency.pdf)
+* [Update Frequency](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/upgrade.pdf)
 * [Workflow Size](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_size.pdf)
 * [Workflow Structure](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_structure.pdf)
 
