@@ -60,7 +60,7 @@
 * Mappings  [a relative link](Comparison%20Study/Comparison%20Mappings.xlsx)
 
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonMapping.png?raw=true" width="1024">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonMapping.png?raw=true" width="400">
 </p>
 
 
