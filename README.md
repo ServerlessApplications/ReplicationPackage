@@ -49,7 +49,19 @@ Our script for the calculation of the Fleiß-Kappa score based on this data is a
 python3 CalculateKappa.py
 ```
 
+### Results Including Unknown Data 
+In the following discussion and consolidation phase, the reviewers compared their notes and tried to reach a consensus for the characteristics with conflicting assignments. In a few cases, the two reviewers had different interpretations of a characteristics. These conflicts were discussed among all authors to ensure that characteristic interpretations were consistent. However for most conflicts, the consolidation was a quick process as the most frequent type of conflict was that one reviewer found additional documentation that the other reviewer did not find.
+
+For six characteristics, many applications were assigned the ''Unknown'' value, i.e., the reviewers were not able to determine the value of this characteristic. Therefore, we excluded these characteristics from this study. For the remaining characteristics, the percentage of ''Unknowns'' ranges from 0–19%  with two outliers at 25% and 30%. These ''Unknowns'' were excluded for the percentage values presented in the article. As part of our replication package, we provide the raw results for each characteristic including the ''Unknown'' percentages in the form of barcharts, such as:
+<p>
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="400">
+</p>
+
+* Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
+
+
 ### Final Dataset & Figure Generation
+In the following discussion and consolidation phase, the reviewers compared their notes and tried to reach a consensus for the characteristics with conflicting assignments. In a few cases, the two reviewers had different interpretations of a characteristics. These conflicts were discussed among all authors to ensure that characteristic interpretations were consistent. However for most conflicts, the consolidation was a quick process as the most frequent type of conflict was that one reviewer found additional documentation that the other reviewer did not find. Following this process, we were able to resolve all conflicts, resulting in a collection of \totalusecases applications described by 18 characteristics. 
 * Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 
 <p>
@@ -57,15 +69,6 @@ python3 CalculateKappa.py
 </p>
 
 * Scripts for figures [a relative link](Serverless%20Application%20Characterization/GenerateFigures.py)
-
-### Results Including Unknown Data 
-* Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
-
-<p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="400">
-</p>
-
-
 ## Comparison Study
 * Literature search results [a relative link](Comparison%20Study/ComparisonSearch.xlsx)
 
