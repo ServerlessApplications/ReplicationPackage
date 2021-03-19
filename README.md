@@ -25,7 +25,7 @@
 
 [SC6 DESY - High Throughput Data Taking](Serverless%20Application%20Collection/SC6%20DESY%20-%20High%20Throughput%20Data%20Taking.pdf)
 
-* Collected dataset
+* Collected dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 ## Serverless Application Characterization
 * Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
 <p>
@@ -34,7 +34,7 @@
 
 * Scripts for overlapp [a relative link](Serverless%20Application%20Characterization/CalculateKappa.py)
 
-* Final rating
+* Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 
 * Scripts for figures
 
