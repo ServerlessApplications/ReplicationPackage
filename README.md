@@ -1,7 +1,9 @@
 # ReplicationPackage
 ## Serverless Application Collection
 Initial open source dataset
+<p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/WhiteLiteratureSelection.png?raw=true" width="800">
+</p>
 
 * White literature selection sheet
 * Scientific computing descriptions
