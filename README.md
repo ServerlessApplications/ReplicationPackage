@@ -5,17 +5,22 @@ The replication package for our article _The State of Serverless Applications: C
 * [Comparison Study](#Comparison-Study)
 
 ## Serverless Application Collection
+### Open-source Applications
 * open source dataset + filtering
 [a relative link](Serverless%20Application%20Collection/Open%20source%20filtering.xlsx)
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/OpenSourceFiltering.png?raw=true" width="1024">
 </p>
 
+
+### Academic Literature Applications
 * Academic literature dataset + filtering [a relative link](Serverless%20Application%20Collection/Academic%20literature%20filtering.xlsx)
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/AcademicLiteratureFiltering.png?raw=true" width="1024">
 </p>
 
+
+### Scientific Computing Applications
 * Scientific computing descriptions
 
 [SC1 Copernicus Sentinel-1 for near-real time water monitoring](Serverless%20Application%20Collection/SC1%20Copernicus%20Sentinel-1.pdf)
