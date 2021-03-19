@@ -42,7 +42,8 @@ The initial reviews are available as [a table](Serverless%20Application%20Charac
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="1024">
 </p>
-Our script for the calculation of the Fleiß-Kappa score based on this data is also [publically availible](Serverless%20Application%20Characterization/CalculateKappa.py). It does not require any input and assumes that the file `Initial Characterizations.csv` is located in the same folder. It can be executed as following:
+
+Our script for the calculation of the Fleiß-Kappa score based on this data is also [publically available](Serverless%20Application%20Characterization/CalculateKappa.py). It does not require any input and assumes that the file `Initial Characterizations.csv` is located in the same folder. It can be executed as following:
 
 ```
 python3 CalculateKappa.py
