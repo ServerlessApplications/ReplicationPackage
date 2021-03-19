@@ -7,8 +7,7 @@ The replication package for our article _The State of Serverless Applications: C
 ## Serverless Application Collection
 We  collect  descriptions  of  serverless  applications  from open-source  projects,  academic  literature,  industrial  literature, and scientific computing. 
 ### Open-source Applications
-* open source dataset + filtering
-[a relative link](Serverless%20Application%20Collection/Open%20source%20filtering.xlsx)
+As a starting point, we used an existing data set on open-source serverless projects from [this study](https://gupea.ub.gu.se/bitstream/2077/62544/1/gupea_2077_62544_1.pdf). We removed small and inactive projects based on the number of files, commits, contributors, and watchers. Next, we manually filtered the resulting data set to include only projects that implement serverless applications. We provide [a table](Serverless%20Application%20Collection/Open%20source%20filtering.xlsx) containing all projects that remained after the filtering alongside the notes from the manualy filtering.
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/OpenSourceFiltering.png?raw=true" width="1024">
 </p>
