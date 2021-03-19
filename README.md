@@ -21,7 +21,7 @@ We based our search on an [existing community-curated dataset](https://doi.org/1
 
 
 ### Scientific Computing Applications
-Most of these scientifc computing serverless applications are still at an early stage and therefore there is little public data available. One of the authors is employed at the German Aerospace Center~(DLR) at the time of writing, which allowed us to collect information about several projects at DLR that are either currently moving to serverless solutions or are planning to do so. Additionally, an application from the German Electron Syncrotron~(DESY) could be included. For each of these scientifc computing applications, we provide a document containing a description of the project and the names our contacts that provided information for the characterization of these applications.
+Most of these scientifc computing serverless applications are still at an early stage and therefore there is little public data available. One of the authors is employed at the German Aerospace Center (DLR) at the time of writing, which allowed us to collect information about several projects at DLR that are either currently moving to serverless solutions or are planning to do so. Additionally, an application from the German Electron Syncrotron (DESY) could be included. For each of these scientifc computing applications, we provide a document containing a description of the project and the names our contacts that provided information for the characterization of these applications.
 
 * [SC1 Copernicus Sentinel-1 for near-real time water monitoring](Serverless%20Application%20Collection/SC1%20Copernicus%20Sentinel-1.pdf)
 * [SC2 Reprocessing Sentinel 5 Precursor data with ProEO](Serverless%20Application%20Collection/SC2%20Reprocesssing%20Sentinel%205%20Precursor%20Data%20with%20ProsEO.pdf)
@@ -32,7 +32,6 @@ Most of these scientifc computing serverless applications are still at an early 
 
 ### Collection of serverless applications
 Based on the previously described methodology, we collected a diverse dataset of 89 serverless applications from open-source projects, academic literature, industrial literature, and scientific computing. This dataset is can be found [here](Serverless%20Application%20Characterization/Dataset.xlsx).
-
 
 ## Serverless Application Characterization
 As  previously  described,  we  collected  89  serverless  applications  from  four different sources. Subsequently, two randomly assigned reviewers out of seven available reviewers characterized each application along 22 characteristics in a structured collaborative review sheet. The characteristics and potential valueswere defined a priori by the authors and iteratively refined, extended,  and  generalized  during  the  review  process.  The initial moderate inter-rater agreement was followed bya discussion and consolidation phase, where all differences between  the  two  reviewers  were  discussed  and  resolved. The six scientific applications were not publicly available and therefore  characterized  by  a  single  domain  expert,  who  is either involved in the development of the applications or in direct contact with the development team.
@@ -56,8 +55,34 @@ For six characteristics, many applications were assigned the ''Unknown'' value, 
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="400">
 </p>
+The following barcharts contain the raw data for each characteristic:
 
-* Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
+* [Application Type](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/application_type.pdf)
+* [Burstiness](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/bursty.pdf)
+* [Workflow Coordination](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/coordination.pdf)
+* [Data Volume](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/data_volume.pdf)
+* [Domain](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/domain.pdf)
+* [Execution Pattern](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/execution_pattern.pdf)
+* [External Services](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/external_services.pdf)
+* [Function Runtime](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/function_runtime.pdf)
+* [Is it a workflow?](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/is_workflow.pdf)
+* [Programming Languages](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/languages.pdf)
+* [Is latency relevant?](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/latency_relevant.pdf)
+* [Locality Requirements](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/locality_requirement.pdf)
+* [Motivation](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/motivation.pdf)
+* [Number of Functions](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/number_of_functions.pdf)
+* [Open Source](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/open_source.pdf)
+* [Workflow Parallelism](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/parallelism.pdf)
+* [Cloud Platform](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/platform.pdf)
+* [In Production](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/production.pdf)
+* [Resource Bounds](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/resource_bounds.pdf)
+* [Cost-Performance Tradeoff](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/tradeoff.pdf)
+* [Function Trigger](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/trigger.pdf)
+* [Update Frequency](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/upgrade_frequency.pdf)
+* [Workflow Size](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_size.pdf)
+* [Workflow Structure](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_structure.pdf)
+
+*  + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
 
 
 ### Final Dataset & Figure Generation
