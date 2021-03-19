@@ -40,13 +40,15 @@
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Dataset.png?raw=true" width="800">
 </p>
 
-* Scripts for figures
+* Scripts for figures [a relative link](Serverless%20Application%20Characterization/GenerateFigures.py)
 
 * Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
 
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="800">
 </p>
+
+
 ## Comparison Study
 * Literature search results
 * Mappings
