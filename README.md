@@ -19,6 +19,12 @@
 
 [SC3 High Performance Data Analytics for Earth Observation](Serverless%20Application%20Collection/SC3%20High%20Performance%20Data%20Analytic%20for%20Earth%20Observation.pdf)
 
+[SC4 Tandem-L exploitation platform](Serverless%20Application%20Collection/SC4%20Tandem-L%20exploitation%20platform.pdf)
+
+[SC5 Global Urban Footprint](Serverless%20Application%20Collection/SC5%20Global%20Urban%20Footprint.pdf)
+
+[SC6 DESY - High Throughput Data Taking](Serverless%20Application%20Collection/SC6%20DESY%20-%20High%20Throughput%20Data%20Taking.pdf)
+
 * Collected dataset
 ## Serverless Application Characterization
 * Initial Ratings
