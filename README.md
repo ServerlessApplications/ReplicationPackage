@@ -21,21 +21,19 @@ We based our search on an [existing community-curated dataset](https://doi.org/1
 
 
 ### Scientific Computing Applications
-* Scientific computing descriptions
+Most of these scientifc computing serverless applications are still at an early stage and therefore there is little public data available. One of the authors is employed at the German Aerospace Center~(DLR) at the time of writing, which allowed us to collect information about several projects at DLR that are either currently moving to serverless solutions or are planning to do so. Additionally, an application from the German Electron Syncrotron~(DESY) could be included. For each of these scientifc computing applications, we provide a document containing a description of the project and the names our contacts that provided information for the characterization of these applications.
 
-[SC1 Copernicus Sentinel-1 for near-real time water monitoring](Serverless%20Application%20Collection/SC1%20Copernicus%20Sentinel-1.pdf)
+* [SC1 Copernicus Sentinel-1 for near-real time water monitoring](Serverless%20Application%20Collection/SC1%20Copernicus%20Sentinel-1.pdf)
+* [SC2 Reprocessing Sentinel 5 Precursor data with ProEO](Serverless%20Application%20Collection/SC2%20Reprocesssing%20Sentinel%205%20Precursor%20Data%20with%20ProsEO.pdf)
+* [SC3 High Performance Data Analytics for Earth Observation](Serverless%20Application%20Collection/SC3%20High%20Performance%20Data%20Analytic%20for%20Earth%20Observation.pdf)
+* [SC4 Tandem-L exploitation platform](Serverless%20Application%20Collection/SC4%20Tandem-L%20exploitation%20platform.pdf)
+* [SC5 Global Urban Footprint](Serverless%20Application%20Collection/SC5%20Global%20Urban%20Footprint.pdf)
+* [SC6 DESY - High Throughput Data Taking](Serverless%20Application%20Collection/SC6%20DESY%20-%20High%20Throughput%20Data%20Taking.pdf)
 
-[SC2 Reprocessing Sentinel 5 Precursor data with ProEO](Serverless%20Application%20Collection/SC2%20Reprocesssing%20Sentinel%205%20Precursor%20Data%20with%20ProsEO.pdf)
+### Collection of serverless applications
+Based on the previously described methodology, we collected a diverse dataset of 89 serverless applications from open-source projects, academic literature, industrial literature, and scientific computing. This dataset is can be found [here](Serverless%20Application%20Characterization/Dataset.xlsx).
 
-[SC3 High Performance Data Analytics for Earth Observation](Serverless%20Application%20Collection/SC3%20High%20Performance%20Data%20Analytic%20for%20Earth%20Observation.pdf)
 
-[SC4 Tandem-L exploitation platform](Serverless%20Application%20Collection/SC4%20Tandem-L%20exploitation%20platform.pdf)
-
-[SC5 Global Urban Footprint](Serverless%20Application%20Collection/SC5%20Global%20Urban%20Footprint.pdf)
-
-[SC6 DESY - High Throughput Data Taking](Serverless%20Application%20Collection/SC6%20DESY%20-%20High%20Throughput%20Data%20Taking.pdf)
-
-* Collected dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 ## Serverless Application Characterization
 * Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
 <p>
