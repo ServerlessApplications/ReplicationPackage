@@ -50,6 +50,12 @@
 
 
 ## Comparison Study
-* Literature search results
+* Literature search results [a relative link](Comparison%20Study/ComparisonSearch.xlsx)
+
+<p>
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonSearch.png?raw=true" width="800">
+</p>
+
+
 * Mappings
 * Scripts for analysis/figures
