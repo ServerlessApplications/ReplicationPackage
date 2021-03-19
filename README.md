@@ -35,14 +35,18 @@ Based on the previously described methodology, we collected a diverse dataset of
 
 
 ## Serverless Application Characterization
+As  previously  described,  we  collected  89  serverless  applications  from  four different sources. Subsequently, two randomly assigned reviewers out of seven available reviewers characterized each application along 22 characteristics in a structured collaborative review sheet. The characteristics and potential valueswere defined a priori by the authors and iteratively refined, extended,  and  generalized  during  the  review  process.  The initial moderate inter-rater agreement was followed bya discussion and consolidation phase, where all differences between  the  two  reviewers  were  discussed  and  resolved. The six scientific applications were not publicly available and therefore  characterized  by  a  single  domain  expert,  who  is either involved in the development of the applications or in direct contact with the development team.
 
 ### Initial Ratings & Interrater Agreement Calculation
-* Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
+The initial reviews are available as [a table](Serverless%20Application%20Characterization/Initial%20Characterizations.csv), where every application is characterized along the 22 characteristics. A single value indicates that both reviewers assigned the same value, whereas a value of the form ´´´[Reviewer 2] A | [Reviewer 4] B´´´ indicates that for this characteristic, reviewer two assigned the value A, wheareas reviewer assigned the value B.
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="1024">
 </p>
+Our script for the calculation of the Fleiß-Kappa score based on this data is also [publically availible](Serverless%20Application%20Characterization/CalculateKappa.py). It does not require any input and assumes that the file ´´´Initial Characterizations.csv´´´ is located in the same folder. It can be executed as following:
 
-* Scripts for overlapp [a relative link](Serverless%20Application%20Characterization/CalculateKappa.py)
+´´´
+python3 CalculateKappa.py
+´´´
 
 ### Final Dataset & Figure Generation
 * Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
