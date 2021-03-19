@@ -5,6 +5,7 @@ The replication package for our article _The State of Serverless Applications: C
 * [Comparison Study](#Comparison-Study)
 
 ## Serverless Application Collection
+We  collect  descriptions  of  89  serverless  applications  fromopen-source  projects,  academic  literature,  industrial  litera-ture, and scientific computing. 
 ### Open-source Applications
 * open source dataset + filtering
 [a relative link](Serverless%20Application%20Collection/Open%20source%20filtering.xlsx)
