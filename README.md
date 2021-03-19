@@ -35,10 +35,10 @@
 * Scripts for overlapp [a relative link](Serverless%20Application%20Characterization/CalculateKappa.py)
 
 * Final rating
-* 
+
 * Scripts for figures
 
-* Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknowns) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
+* Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
 
 
 ## Comparison Study
