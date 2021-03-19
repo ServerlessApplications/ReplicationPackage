@@ -29,7 +29,7 @@
 ## Serverless Application Characterization
 * Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Initial%20Characterizations.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Initial%20Characterization.png?raw=true" width="800">
 </p>
 
 
