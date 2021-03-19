@@ -12,6 +12,11 @@
 </p>
 
 * Scientific computing descriptions
+
+[SC1 Copernicus Sentinel-1 for near-real time water monitoring](Serverless%20Application%20Collection/SC1%20Copernicus%20Sentinel-1.pdf)
+[SC2 Reprocessing Sentinel 5 Precursor data with ProEP](Serverless%20Application%20Collection/SC2%20Reprocessing%20Sentinel%205%20Precursor%20Data%20with%20ProEP.pdf)
+[SC3 High Performance Data Analytics for Earth Observation](Serverless%20Application%20Collection/SC3%20High%20Performance%20Data%20Analytic%20for%20Earth%20Observation.pdf)
+
 * Collected dataset
 ## Serverless Application Characterization
 * Initial Ratings
