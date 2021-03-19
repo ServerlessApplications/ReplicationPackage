@@ -14,7 +14,7 @@ As a starting point, we used an existing data set on open-source serverless proj
 
 
 ### Academic Literature Applications
-* Academic literature dataset + filtering [a relative link](Serverless%20Application%20Collection/Academic%20literature%20filtering.xlsx)
+We based our search on an [existing community-curated dataset](https://doi.org/10.5281/zenodo.1175423) on literature for serverless computing consisting of over 180 peer-reviewed articles. First, we filtered the articles based on title and abstract. In a second iteration, we filtered out any articles that implement only a single function for evaluation purposes or do not include sufficient detail to enable a review. As the authors were familiar with some additional publications describing serverless applications, we contributed them to the community-curated dataset and included them in this study. We provide [a table](Serverless%20Application%20Collection/Academic%20literature%20filtering.xlsx) with our notes from the manual filtering.
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/AcademicLiteratureFiltering.png?raw=true" width="1024">
 </p>
