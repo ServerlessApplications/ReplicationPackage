@@ -82,8 +82,11 @@ The following barcharts contain the raw data for each characteristic:
 * [Workflow Size](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_size.pdf)
 * [Workflow Structure](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_structure.pdf)
 
-*  + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
+The script for the generation of these barcharts is also [part of this replication package](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)). It does not require any input and assumes that the file `Dataset.csv` is located in the same folder. It can be executed as following:
 
+```
+python3 GenerateResultsIncludingUnknown.py
+```
 
 ### Final Dataset & Figure Generation
 In the following discussion and consolidation phase, the reviewers compared their notes and tried to reach a consensus for the characteristics with conflicting assignments. In a few cases, the two reviewers had different interpretations of a characteristics. These conflicts were discussed among all authors to ensure that characteristic interpretations were consistent. However for most conflicts, the consolidation was a quick process as the most frequent type of conflict was that one reviewer found additional documentation that the other reviewer did not find. Following this process, we were able to resolve all conflicts, resulting in a collection of \totalusecases applications described by 18 characteristics. 
