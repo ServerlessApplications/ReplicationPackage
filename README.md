@@ -3,12 +3,12 @@
 * open source dataset + filtering
 [a relative link](Serverless%20Application%20Collection/Open%20source%20filtering.xlsx)
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/OpenSourceFiltering.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/OpenSourceFiltering.png?raw=true" width="1024">
 </p>
 
 * Academic literature dataset + filtering [a relative link](Serverless%20Application%20Collection/Academic%20literature%20filtering.xlsx)
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/AcademicLiteratureFiltering.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/AcademicLiteratureFiltering.png?raw=true" width="1024">
 </p>
 
 * Scientific computing descriptions
@@ -29,7 +29,7 @@
 ## Serverless Application Characterization
 * Initial Ratings [a relative link](Serverless%20Application%20Characterization/Initial%20Characterizations.csv)
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="1024">
 </p>
 
 * Scripts for overlapp [a relative link](Serverless%20Application%20Characterization/CalculateKappa.py)
@@ -37,7 +37,7 @@
 * Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
 
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Dataset.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Dataset.png?raw=true" width="1024">
 </p>
 
 * Scripts for figures [a relative link](Serverless%20Application%20Characterization/GenerateFigures.py)
@@ -45,7 +45,7 @@
 * Results including unknowns [a relative link](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown) + script [a relative link](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)
 
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/CharacteristicsIncludingUnknown.png?raw=true" width="400">
 </p>
 
 
@@ -53,7 +53,7 @@
 * Literature search results [a relative link](Comparison%20Study/ComparisonSearch.xlsx)
 
 <p>
-<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonSearch.png?raw=true" width="800">
+<img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonSearch.png?raw=true" width="1024">
 </p>
 
 
