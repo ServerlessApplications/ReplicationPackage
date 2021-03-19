@@ -10,6 +10,7 @@
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/AcademicLiteratureFiltering.png?raw=true" width="800">
 </p>
+
 * Scientific computing descriptions
 * Collected dataset
 ## Serverless Application Characterization
