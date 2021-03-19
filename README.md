@@ -1,6 +1,6 @@
 # ReplicationPackage
 The replication package for our article _The State of Serverless Applications: Collection,Characterization, and Community Consensus_ provides everything required to reproduce all results for the following three studies:
-* [Serverless Application Collectiony](#Serverless Application-Collection)
+* [Serverless Application Collection](#Serverless-Application-Collection)
 * [Serverless Application Characterization](#Serverless-Application-Characterization)
 * [Comparison Study](#Comparison-Study)
 
