@@ -130,3 +130,5 @@ Further, the script to generate all figures shown in the chapter _Comparison Ana
 ```
 python3 barcharts.py
 ```
+
+If you have any questions about our study or require any additional information/data please contact the first author.
