@@ -102,7 +102,12 @@ python3 GenerateFigures.py
 ```
 
 ## Comparison Study
-* Literature search results [a relative link](Comparison%20Study/ComparisonSearch.xlsx)
+To identify existing surveys and datasets that also investigate one of our characteristics, we conducted a literature search using Google as our search engine, as we were mostly looking for grey literature. We used the following search term:
+```
+("serverless" OR "faas") AND ("dataset" OR "survey" OR "report") after: 2018-01-01
+````
+
+This search term looks for any combination of either serverless or faas alongside any of the terms dataset, survey, or report. We further limited the search to any articles after 2017, as serverless is a fast moving field and therefore any older studies are likely outdated already. This search term resulted in a total of 173 search results. In order to validate if using only a single search engine is sufficient, and if the search term is broad enough, we checked if the seven studies the authors were already familiar with are contained in the search results. As all seven studies were contained in the search results, we concluded that the literature search was broad enough. In a first iteration, we filtered out all results that do not either report original data or report on data from another study. Next, we removed all reports on secondary data, where the original study was already contained in the search results. This process resulted in a total of 16 identified studies. Finally, we determined for each identified study if they investigate one of our characteristics. This resulted in a total of ten related studies. The results from the literature search and the notes from the filtering are part of this replicationpacke as [a table](Comparison%20Study/ComparisonSearch.xlsx).
 
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonSearch.png?raw=true" width="1024">
