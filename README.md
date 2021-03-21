@@ -113,13 +113,11 @@ This search term looks for any combination of either serverless or faas alongsid
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonSearch.png?raw=true" width="1024">
 </p>
 
-
-* Mappings  [a relative link](Comparison%20Study/Comparison%20Mappings.xlsx)
+As these studies use different answer options than our study, we mapped their answer options to ours. In many cases, this was straight forward, such as mapping HTTP to HTTP Request. If the answer option granularities between the studies differed, we aggregated answer options from the study with lower granularity to match the higher granularity study. In case the lower granularity study allowed multiple answers, we selected only the highest value instead of aggregating them, to avoid counting a single study participant multiple times. As this mapping process is somewhat subjective, we provide a detailed account of the mapping for each characteristic and related study [as a multi-sheet excel table](Comparison%20Study/Comparison%20Mappings.xlsx), where each sheets shows our mapping alongside our notes which answer options were mappedn.
 
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonMapping.png?raw=true" width="400">
 </p>
-
 
 * Scripts for comparison score [a relative link](Comparison%20Study/corroboration_analysis.py)
 
