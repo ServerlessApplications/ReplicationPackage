@@ -89,14 +89,18 @@ python3 GenerateResultsIncludingUnknown.py
 ```
 
 ### Final Dataset & Figure Generation
-In the following discussion and consolidation phase, the reviewers compared their notes and tried to reach a consensus for the characteristics with conflicting assignments. In a few cases, the two reviewers had different interpretations of a characteristics. These conflicts were discussed among all authors to ensure that characteristic interpretations were consistent. However for most conflicts, the consolidation was a quick process as the most frequent type of conflict was that one reviewer found additional documentation that the other reviewer did not find. Following this process, we were able to resolve all conflicts, resulting in a collection of \totalusecases applications described by 18 characteristics. 
-* Final dataset [a relative link](Serverless%20Application%20Characterization/Dataset.xlsx)
+In the following discussion and consolidation phase, the reviewers compared their notes and tried to reach a consensus for the characteristics with conflicting assignments. In a few cases, the two reviewers had different interpretations of a characteristics. These conflicts were discussed among all authors to ensure that characteristic interpretations were consistent. However for most conflicts, the consolidation was a quick process as the most frequent type of conflict was that one reviewer found additional documentation that the other reviewer did not find. Following this process, we were able to resolve all conflicts, resulting in a collection of 89 applications described by 18 characteristics. This dataset is available here: [link](Serverless%20Application%20Characterization/Dataset.xlsx)
 
 <p>
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Dataset.png?raw=true" width="1024">
 </p>
 
-* Scripts for figures [a relative link](Serverless%20Application%20Characterization/GenerateFigures.py)
+The script to generate all figures shown in the chapter "Serverless Application Characterization can be found [here](Serverless%20Application%20Characterization/GenerateFigures.py). It does not require any input, buzt assumes that the file `Dataset.csv` is located in the same folder. It can be executed as following:
+
+```
+python3 GenerateFigures.py
+```
+
 ## Comparison Study
 * Literature search results [a relative link](Comparison%20Study/ComparisonSearch.xlsx)
 
