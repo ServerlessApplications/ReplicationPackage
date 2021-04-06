@@ -42,7 +42,7 @@ The initial reviews are available as [a table](Serverless%20Application%20Charac
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/InitialCharacterization.png?raw=true" width="1024">
 </p>
 
-Our script for the calculation of the Fleiß-Kappa score based on this data is also [publically available](Serverless%20Application%20Characterization/CalculateKappa.py). It does not require any input and assumes that the file `Initial Characterizations.csv` is located in the same folder. It can be executed as following:
+Our script for the calculation of the Fleiß-Kappa score based on this data is also [publically available](Serverless%20Application%20Characterization/CalculateKappa.py). It requires the python package `pandas` and `statsmodels`. It does not require any input and assumes that the file `Initial Characterizations.csv` is located in the same folder. It can be executed as following:
 
 ```
 python3 CalculateKappa.py
@@ -82,7 +82,7 @@ The following barcharts contain the raw data for each characteristic:
 * [Workflow Size](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_size.pdf)
 * [Workflow Structure](Serverless%20Application%20Characterization/CharacteristicsIncludingUnknown/workflow_structure.pdf)
 
-The script for the generation of these barcharts is also [part of this replication package](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)). It does not require any input and assumes that the file `Dataset.csv` is located in the same folder. It can be executed as following:
+The script for the generation of these barcharts is also [part of this replication package](Serverless%20Application%20Characterization/GenerateResultsIncludingUnknown.py)). It uses the python packages `pandas`, `numpy`, and `matplotlib`. It does not require any input and assumes that the file `Dataset.csv` is located in the same folder. It can be executed as following:
 
 ```
 python3 GenerateResultsIncludingUnknown.py
@@ -95,7 +95,7 @@ In the following discussion and consolidation phase, the reviewers compared thei
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/Dataset.png?raw=true" width="1024">
 </p>
 
-The script to generate all figures shown in the chapter "Serverless Application Characterization can be found [here](Serverless%20Application%20Characterization/GenerateFigures.py). It does not require any input, buzt assumes that the file `Dataset.csv` is located in the same folder. It can be executed as following:
+The script to generate all figures shown in the chapter "Serverless Application Characterization can be found [here](Serverless%20Application%20Characterization/GenerateFigures.py). It does not require any input, buzt assumes that the file `Dataset.csv` is located in the same folder. It uses the python packages `pandas`, `numpy`, and `matplotlib`. It can be executed as following:
 
 ```
 python3 GenerateFigures.py
@@ -119,13 +119,13 @@ As these studies use different answer options than our study, we mapped their an
 <img src="https://github.com/ServerlessApplications/ReplicationPackage/raw/main/images/ComparisonMapping.png?raw=true" width="400">
 </p>
 
-For many studies, not all information required for traditional meta-analysis techniques, such as cohort size, is available, preventing the application of these meta-analysis techniques. Therefore, we came up with an agreement metric that equally weights the agreement of the reported ranking and the agreement of the reported percentage values. It combines the relative difference between the reported percentages of both studies and the order of the reported popularities of the answer options. We categorize scores in the range \[0.8, 1] as very high agreement, \[0.6,0.6\[ as high agreement, \[0.4, 0.6\[ as medium agreement, \[0.2, 0.4\[ as low agreement, and \[0, 0.2\[ as very low agreement. We acknowledge, that these categories are somewhat arbitrary, however based on a manual inspection of the results, they do seem to capture the level of agreement between the individual studies quite well. Our replication package includes [the mapped data](Comparison%20Study/Comparison%20Mappings.xlsx) alongside the resulting scores to enable a manual inspection of the degree of agreement. The script that implements the calulation of our score is also [publically available](Comparison%20Study/corroboration_analysis.py). The script does not require any input and assumes that the file `Comparison Mappings.xlsx` is located in the same folder. The script can be executed as following:
+For many studies, not all information required for traditional meta-analysis techniques, such as cohort size, is available, preventing the application of these meta-analysis techniques. Therefore, we came up with an agreement metric that equally weights the agreement of the reported ranking and the agreement of the reported percentage values. It combines the relative difference between the reported percentages of both studies and the order of the reported popularities of the answer options. We categorize scores in the range \[0.8, 1] as very high agreement, \[0.6,0.6\[ as high agreement, \[0.4, 0.6\[ as medium agreement, \[0.2, 0.4\[ as low agreement, and \[0, 0.2\[ as very low agreement. We acknowledge, that these categories are somewhat arbitrary, however based on a manual inspection of the results, they do seem to capture the level of agreement between the individual studies quite well. Our replication package includes [the mapped data](Comparison%20Study/Comparison%20Mappings.xlsx) alongside the resulting scores to enable a manual inspection of the degree of agreement. The script that implements the calulation of our score is also [publically available](Comparison%20Study/corroboration_analysis.py). It uses the python packages `pandas`, `numpy`, and `scipy`. The script does not require any input and assumes that the file `Comparison Mappings.xlsx` is located in the same folder. The script can be executed as following:
 
 ```
 python3 corroboration_analysis.py
 ```
 
-Further, the script to generate all figures shown in the chapter _Comparison Analysis_ is the final piece of our replication package: [link](Comparison%20Study/barcharts.py). It does not require any input and can be executed as following:
+Further, the script to generate all figures shown in the chapter _Comparison Analysis_ is the final piece of our replication package: [link](Comparison%20Study/barcharts.py). It uses the python packages `numpy` and `matplotlib`. It does not require any input and can be executed as following:
 
 ```
 python3 barcharts.py
