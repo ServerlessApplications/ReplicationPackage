@@ -10,7 +10,6 @@ def analyze_hist(col, title, filename):
     col = col.str.replace('\+', "")
     col = col.astype('int32')
     plt.figure(figsize=(12, 4))
-    print(col.tolist())
     counts, bins, bars = plt.hist(col, bins=np.linspace(0.5, 200.5, 201), density=True, edgecolor='black', color='grey', linewidth=0.5)
     print("--- Comparison to Serverless in the Wild ---")
     print("1 Function", col[col == 1].size/col.size)
@@ -43,7 +42,6 @@ def analyze_col(col, values, title, filename, alias=False):
     if alias is False:
         alias = values
     col = col[~col.str.contains('Not applicable')]
-    col = col[~col.str.contains('Unknown')]
 
     results = {}
     for i, value in enumerate(values):
@@ -58,24 +56,6 @@ def analyze_col(col, values, title, filename, alias=False):
         else:
           results.update({alias[i]: 0})
 
-    comp = 0.7
-    height = (1 + len(results) * 0.8) * comp
-    fig, ax1 = plt.subplots(1, 1, figsize=(12, height))
-    y = [i*100 / len(col) for i in list(results.values())]
-    ax1.barh([x * comp for x in range(len(results))], y, align='center', color='grey', height=0.55)
-    for i, v in enumerate(y):
-        ax1.text(v + 0.5, i*comp, '{:.0f}'.format(round(v)) + '%', fontsize=font_size, va='center')
-    ax1.tick_params(axis='both', which='major', labelsize=font_size)
-    ax1.set_yticks([x * comp for x in range(len(results))],)
-    ax1.set_yticklabels(list(results.keys()))
-    ax1.set_ylim([-0.55* comp, len(results) * comp - 0.45*comp])
-    ax1.set_xticks([])
-    ax1.set_xlim([0, 100])
-    ax1.set_xlabel('Proportion of applications [%]', fontsize=font_size)
-
-    plt.tight_layout()
-    plt.savefig('figures/' + filename + '.pdf')
-    plt.close()
 
     # Generates percentages excluding unknowns
     col = col[~col.str.contains('Unknown')]
@@ -104,8 +84,31 @@ def analyze_col(col, values, title, filename, alias=False):
         else:
           results.update({alias[i]: 0})
     y = [i*100 / len(col) for i in list(results.values())]
+
+
+    comp = 0.7
+    height = (1 + len(results) * 0.8) * comp
+    fig, ax1 = plt.subplots(1, 1, figsize=(12, height))
+    ax1.barh([x * comp for x in range(len(results))], y, align='center', color='grey', height=0.55)
     for i, v in enumerate(y):
-        print("\t", alias[i], str(v) + "%")
+        ax1.text(v + 0.5, i*comp, '{:.0f}'.format(round(v)) + '%', fontsize=font_size, va='center')
+    ax1.tick_params(axis='both', which='major', labelsize=font_size)
+    ax1.set_yticks([x * comp for x in range(len(results))],)
+    ax1.set_yticklabels(list(results.keys()), linespacing=0.6)
+    ax1.set_ylim([-0.55* comp, len(results) * comp - 0.45*comp])
+    ax1.tick_params(axis='both', length=8, width=1)
+    ax1.tick_params(which='minor', axis='both', length=5, width=1)
+    from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
+                               AutoMinorLocator)
+    ax1.xaxis.set_minor_locator(AutoMinorLocator())
+    ax1.xaxis.set_major_formatter(plt.NullFormatter())
+    ax1.set_xlim([0, 100])
+    ax1.set_xlabel('Proportion of applications [%]', fontsize=font_size)
+
+    plt.tight_layout()
+    plt.savefig('figures/' + filename + '.pdf')
+    plt.close()
+
 
 
 def analyze_is_workflow(df, values, title, filename, alias=False):
